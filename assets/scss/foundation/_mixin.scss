@@ -1,0 +1,13 @@
+/* PC */
+@mixin pc {
+	@media screen and (min-width: $SCREEN_MD) {
+		@content;
+	}
+}
+
+/* SP */
+@mixin sp {
+	@media screen and (max-width: ($SCREEN_MD - 1)) {
+		@content;
+	}
+}

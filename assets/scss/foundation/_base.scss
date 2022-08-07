@@ -1,0 +1,38 @@
+body {
+	font-family: "Noto Sans JP", sans-serif;
+	font-weight: $FONT_NORMAL;
+	font-size: $TEXT_BASE;
+	line-height: $LEADING_NORMAL;
+	letter-spacing: $TRACKING_NORMAL;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+	display: block;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
